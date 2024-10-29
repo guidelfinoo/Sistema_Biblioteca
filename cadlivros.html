@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Livros</title>
+    <link rel="stylesheet" type="text/css" href="cadelogin.css">
+    <link rel="icon" href="biblioteca.jpg">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="botao1">Home</a>
+        <a href="catalogo.html" class="botao1">Catalogo</a>
+        <a href="sobrebiblioteca.html" class="botao1">Sobre nós</a>
+        <a href="cadastro.html" class="botao1">Cadastre-se</a>
+        <a href="loginbiblioteca.html" class="botao2">Login</a>
+    </header>
+
+    <h1>Cadastrar Livros</h1>
+    <div id="form-container">
+        <main>
+            <section>
+                <form method="post" action="cadlivros.php">
+                    <label for="nome">Nome Livro</label>
+                    <input type="text" id="nome" name="livro" required> <br><br>
+                    <label for="email">ISBN</label>
+                    <input type="number" id="cod" name="isbn" placeholder="000-00-00000-00-0" required> <br> <br>
+                    <label for="telefone">Gênero</label>
+                    <input type="text" id="text" name="genero" placeholder="Digite o Gênero" required> <br><br>
+                    <label for="number">Classificação de Idade</label>
+                    <input type="number" id="idade" name="idade"><br><br>
+                    <label for="text">Autor</label>
+                    <input type="text" id="autor" name="autor" placeholder="Digite o nome do Autor(a)"> <br> <br>
+                    <label for="date">Data de Publicação</label>
+                    <input type="date" id="data" name="data"><br><br>
+                    <label for="number">Quantidade de Exemplares</label>
+                    <input type="number" id="qtd" name="qtd"><br><br>
+                    <label for="number">Disponibilidade</label>
+                    <input type="text" id="qtd" name="disp"><br><br>
+                    <a href="catalago.html">
+                        <button type="submit">Cadastrar Livro</button>
+                    </a>
+                    <button type="reset">Resetar</button>
+                </form>
+            </section>
+         
+        </main>
+        <a href="catalogo.html">Voltar</a>
+    </div>
+    <meta name="description"
+        content="Ao escrever uma meta tag, use entre 140 e 160 caracteres para que o Google possa exibir toda a sua mensagem. Não se esqueça de incluir sua palavra-chave!">
+    </center>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    </form>
+    </main>
+    <footer>
+        <p>2024 Biblioteca Virtual - Todos os direitos reservados</p>
+    </footer>
+</body>
+
+</html>

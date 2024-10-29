@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login</title>
+    <link rel="stylesheet" href="cadelogin.css">
+    <link rel="icon" href="biblioteca.jpg">
+</head>
+
+<body>
+    
+    <header>
+        <a href="index.html" class="botao1">Home</a>
+        <a href="catalogo.html" class="botao1">Catalogo</a>
+        <a href="sobrebiblioteca.html" class="botao1">Sobre nós</a>
+        <a href="cadastro.html" class="botao1">Cadastre-se</a>
+        <a href="loginbiblioteca.html" class="botao2">Login</a>
+    </header>
+   
+    <center>
+        <h1>Login, Biblioteca&#x1F513;</h1>
+    </center>
+    <section>
+        <div>
+            <form method="post" action="#">
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome" placeholder="Digite seu nome" required>
+                        <br>
+                        <br>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" placeholder="a@a.com" required>
+                        <br>
+                        <br>
+                        <label for="senha">Senha:</label>
+                        <input type="text" name="senha" placeholder="Digite sua senha" required>
+                        <br>
+                        <br>
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" name="telefone" placeholder="(XX) XXXXX-XXXX" required>
+                        <br>
+                        <br>
+                        <label for="cpf">CPF:</label>
+                        <input type="text" name="CPF" placeholder="XXX.XXX.XXX-XX" required>
+                        <br>
+                        <br>
+                        <input type="radio" name="opção" id="opção-sim" value="Funcionário" checkedrequired />
+                        <label for="opção-sim">Funcionário(a)</label>
+                        <input type="radio" name="opção" id="opção-sim" value="Usuário/Cliente" checked required />
+                        <label for="opção-sim">Usuário/Aluno(a)</label>
+                        <br><br>
+                        <a href="catalago.html">
+                            <button type="submit">Efetuar Login</button>
+                        </a>
+                            <button type="reset">Resetar</button>
+                    </form>
+    </section>
+    
+                <br><br>
+            <a href="index.html">Voltar</a>
+            <div vw class="enabled">
+                <div vw-access-button class="active"></div>
+                <div vw-plugin-wrapper>
+                    <div class="vw-plugin-top-wrapper"></div>
+                </div>
+            </div>
+            <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+            <script>
+                new window.VLibras.Widget('https://vlibras.gov.br/app');
+            </script>
+        </form>
+        </main>
+    </div>
+    <footer>
+        <p>2024 Biblioteca Virtual - Todos os direitos reservados</p>
+    </footer>
+</body>
+
+</html>
